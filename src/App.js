@@ -63,14 +63,14 @@ class App extends Component {
       <div className="container">
         <h1>BMI Calculator</h1>
         <div className="height-range">
-          <h3>Height</h3>
+          <h3>Chiều Cao</h3>
           <Range 
             callbackChange={ this.changeHeight } 
             inputValue={ this.state.height }  
           />
         </div>
         <div className="weight-range">
-          <h3>Weight</h3>
+          <h3>Cân Nặng</h3>
           <Range 
             callbackChange={ this.changeWeight } 
             inputValue={ this.state.weight }  
